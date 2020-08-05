@@ -6,7 +6,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args)
     {
-        String ACCESS_TOKEN = "EyWGEJUMRYAAAAAAAAAAKFXcN7W5FvJR6BNKztZVAz3ba9IQIE9gmivdW9QbFSsG";
+        String ACCESS_TOKEN = "Enter access token here";
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
         JavaSoundRecorder recorder = new JavaSoundRecorder(client);
